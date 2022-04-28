@@ -19,11 +19,16 @@ public class Program {                                                      //31
 		Scanner sc = new Scanner(System.in);
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");       //40 criar simple date format
 		
+	
 		System.out.print("Enter department's name: ");                 //33 entrar com nome departament
 		String departmentName = sc.nextLine();
 		
-		System.out.println("Enter worker data:");                     //34 entrar nome trabalhador
-		System.out.print("Name: ");
+		
+		System.out.println("Enter worker data:");  
+		//error
+		
+		
+		System.out.print("Name: ");									//34 entrar nome trabalhador
 		String workerName = sc.nextLine();
 		
 		System.out.print("Level: ");                                 //35 entrar level
